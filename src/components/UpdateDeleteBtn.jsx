@@ -6,7 +6,6 @@ import { useDispatch, useSelector } from 'react-redux';
 import { deletPostId } from '../redux/modules/postSlice';
 
 let navigate = null;
-// width: '80px', height: '23px', lineHeight:'70%', textSizeAdjust:'inherit', fontSize:'13px'
 
 export const StBtn = styled.button`
   width: 70px;

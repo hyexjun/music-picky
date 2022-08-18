@@ -16,7 +16,7 @@ import { getCookie, setCookie } from '../shared/Cookie';
 const PostUpdate = () => {
   const [validated, setValidated] = useState(false);
   const navigate = useNavigate();
-  ///////////////////////////////////////////////
+
   const [genre, setGenre] = useState('');
   const [userData, setUserData] = useState();
   let formData = new FormData();
@@ -76,26 +76,17 @@ const PostUpdate = () => {
         // imageUrl: imageRef.current,
         videoUrl: videoRef.current.value,
       });
-
-      // formData = new URLSearchParams({
-      //     title: titleRef.current.value,
-      //     artist: artistRef.current.value,
-      //     genre: e.target.genre.value,
-      //     content: contentRef.current.value,
-      //     videoUrl: videoRef.current.value,
-      // })
-
       e.preventDefault();
     }
     setValidated(true);
   };
 
   // unused func
-  const userFunc = (e) => {
-    const { name, value } = e.target;
-    setUserData({ ...userData, [name]: value });
-    // console.log(userData);
-  };
+  // const userFunc = (e) => {
+  //   const { name, value } = e.target;
+  //   setUserData({ ...userData, [name]: value });
+  //   console.log(userData);
+  // };
 
   const onChangeGenre = (e) => {
     setGenre(e.target.value);
@@ -211,7 +202,7 @@ const PostUpdate = () => {
                 id='contents'
                 // onChange={userFunc}
                 ref={contentRef}
-                placeholder='추천이유와 감상평은 어떻게 되시나요?'
+                placeholder='이 음악에 어떤 추억이 있나요?'
                 style={{ height: '300px' }}
               />
               <Form.Control.Feedback type='invalid'>

@@ -45,9 +45,6 @@ const ViewModal = ({ show, handleShow, handleClose, postId }) => {
 
   return (
     <>
-      {/* <Button variant='primary' onClick={handleShow}>
-        사진 클릭
-      </Button> */}
       <Modal
         show={show}
         onHide={handleClose}

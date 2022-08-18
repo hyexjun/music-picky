@@ -47,18 +47,6 @@ const SignUp = ({ signup, handleCloseSignup }) => {
         </Modal.Header>
         <Modal.Body>
           <Form>
-            {/* <Form.Group className='mb-3' controlId='userId'>
-              <Form.Label>아이디</Form.Label>
-              <Form.Control
-                type='text'
-                placeholder='영어로 시작하며 소문자와 숫자 조합으로 3-12 자리'
-                autoFocus
-                required
-                name='userId'
-                value={state.userId}
-                onChange={handleChangeState}
-              />
-            </Form.Group> */}
             <Form.Group className='mb-3' controlId='username'>
               <Form.Label>사용자명</Form.Label>
               <Form.Control

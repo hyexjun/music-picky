@@ -155,7 +155,7 @@ const ComCard = ({ post, changeState, setChangeState, comments }) => {
           onClick={handleCom}
           disabled={userId === undefined}
         >
-          댓글등록
+          댓글 등록
         </Button>
       </InputGroup>
     );
@@ -168,16 +168,7 @@ const ComCard = ({ post, changeState, setChangeState, comments }) => {
         <Card.Header style={{ display: 'flex', justifyContent: 'end' }}>
           {likeCnt ? likeCnt : post?.likeCnt}
           <Heart />
-          {/* {post?.likeCnt} <Heart /> */}
         </Card.Header>
-
-        {/* (<ListGroup variant="flush">
-          {post?.commentListSimple &&
-            post?.commentListSimple.map((comment, idx) => (
-              <CommentList key={idx} commentListSimple={comment} />
-              // <ListGroup.Item key={idx} commentListSimple={post?.commentListSimple}/>
-            ))}
-        </ListGroup>) */}
         <ListGroup>
           {comments?.map((c, i) => {
             return (
@@ -186,7 +177,7 @@ const ComCard = ({ post, changeState, setChangeState, comments }) => {
                   <Col>{c?.username}</Col>
                   <Col xs={7}>{c?.comment}</Col>
                   <Col>
-                    {c?.userId == userId && (
+                    {c?.userId === userId && (
                       <StBtn
                         onClick={() => {
                           dispatch(deleteCommentAX(postId, c?.commentId));

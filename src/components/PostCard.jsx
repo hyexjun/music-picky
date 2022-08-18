@@ -4,13 +4,13 @@ import { useState } from 'react';
 import ViewModal from './ViewModal';
 
 const PostCard = ({ post }) => {
-  const shorts = (sentence) => {
-    if (sentence.length > 18) {
-      return sentence + '...';
-    } else {
-      return sentence;
-    }
-  };
+  // const shorts = (sentence) => {
+  //   if (sentence.length > 18) {
+  //     return sentence + '...';
+  //   } else {
+  //     return sentence;
+  //   }
+  // };
 
   return (
     <>
