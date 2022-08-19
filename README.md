@@ -1,8 +1,10 @@
 <!-- Heading -->
 Music Picky ✨ mini project (8/12 ~ 8/18)
+
 ----
 - FE : 박혜정, 황선하 (React)
 - BE : 구본주, 김시원, 이동욱 (Spring)
+----
 
 ### Library that we used
 - yarn add react-bootstrap bootstrap
