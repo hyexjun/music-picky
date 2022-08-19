@@ -5,10 +5,6 @@
 - FE : 박혜정, 황선하 (React)
 - BE : 구본주, 김시원, 이동욱 (Spring) https://github.com/Moveuk/MusicPicky
 
-![1](https://user-images.githubusercontent.com/97497201/185587623-424d67a5-12b1-4246-a171-0be26544873b.png)
-![2](https://user-images.githubusercontent.com/97497201/185587653-475d4a8f-791f-4c1f-ac13-b2b652acce2d.png)
-![3](https://user-images.githubusercontent.com/97497201/185587666-16d35777-292c-4847-9a1a-d6889d0e4f4c.png)
-
 ## Library that we used
 
 - yarn add react-bootstrap bootstrap
