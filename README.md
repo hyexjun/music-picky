@@ -6,6 +6,7 @@
 - BE : 구본주, 김시원, 이동욱 (Spring) https://github.com/Moveuk/MusicPicky
 
 ## Library that we used
+
 - yarn add react-bootstrap bootstrap
 - yarn add axios
 - yarn add react-redux @reduxjs/toolkit
