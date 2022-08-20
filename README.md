@@ -4,7 +4,7 @@
 - 프론트엔드 : 박혜정, 황선하 (React)
 - 백엔드 : 구본주, 김시원, 이동욱 (Spring)
 
-![2](https://user-images.githubusercontent.com/97497201/185758212-ccccdb45-1bd6-417f-a685-933accfb7417.png)
+https://youtu.be/wHhqUD268r8
 
 ### 기획 소개 ✨
 - 추억이 담긴 노래를 공유하는 커뮤니티
