@@ -11,7 +11,6 @@ api.interceptors.request.use(
     const refreshToken = getCookie('refreshToken');
     config.headers['Authorization'] = `Bearer ${accessToken}`;
     config.headers['Refresh-token'] = refreshToken;
-    // config.headers['Access-Token-Expire-Time'] = 1234263763542;
     return config;
   },
   (error) => {
